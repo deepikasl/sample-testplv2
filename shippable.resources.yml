@@ -17,5 +17,5 @@ resources:
     integration: shiphitchcock1-github
     pointer:
       sourceName: shiphitchcock1/infra-repo
-      branch: master
+      branch: test
       
