@@ -3,11 +3,19 @@ resources:
     type: version
     seed:
       versionName: "1.1.1-beta"
-
-  - name: sampletest-repo
-    type: gitRepo
-    integration: github
+      
+  - name: sampletest-image1
+    type: image
+    integration: cock1-hub
     pointer:
-      sourceName: shiphitchcock1/infra-repo
-      branch: master
+      sourceName: "shiphitchcock1/betaci_nod_limitless_pl"
+    seed:
+      versionName: "deploy.4"
+
+ # - name: sampletest-repo
+  #  type: gitRepo
+   # integration: shiphitchcock1-github
+    #pointer:
+     # sourceName: shiphitchcock1/infra-repo
+      #branch: master
       
