@@ -1,0 +1,7 @@
+jobs:
+  - name: sampletest-release
+    type: release
+    steps:
+      - IN: sampletest-version
+      - TASK: managed
+        bump: minor
