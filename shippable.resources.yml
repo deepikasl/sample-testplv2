@@ -1,0 +1,12 @@
+- name: sampletest-version
+    type: version
+    seed:
+      versionName: "1.1.1-beta"
+
+  - name: sampletest-repo
+    type: gitRepo
+    integration: github
+    pointer:
+      sourceName: shiphitchcock1/infra-repo
+      branch: master
+      
