@@ -1,4 +1,5 @@
-- name: sampletest-version
+resources:
+  - name: sampletest-version
     type: version
     seed:
       versionName: "1.1.1-beta"
