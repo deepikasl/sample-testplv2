@@ -16,7 +16,7 @@ resources:
     type: image
     integration: cock1-hub
     pointer:
-      sourceName: "shiphitchcock1/betaci_nod_limitless_pl"
+      sourceName: "shiphitchcock1/nod_limitless_pl"
     seed:
       versionName: "deploy.5"
 
