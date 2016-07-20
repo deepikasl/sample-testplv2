@@ -40,3 +40,13 @@ resources:
     pointer:
       sourceName : "testCL"
       region: "us-west-2"
+      
+  - name: sampletest-timer1
+    type: time
+    seed:
+      interval: "*/2 * * * *"
+      
+  - name: sampletest-timer2
+    type: time
+    seed:
+      interval: "30 17 20 7 3"
