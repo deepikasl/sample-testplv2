@@ -13,3 +13,11 @@ jobs:
       - IN: sampletest-image1
       - TASK: managed
       - IN: triggertestsample1
+      
+  - name: sampletest-ecsdeploy
+    type: ecsDeploy
+    steps:
+      - IN: sampletest-manifest
+      - IN: sampletest-cluster
+      - TASK: managed
+        #deployMethod: upgrade
