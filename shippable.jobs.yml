@@ -11,6 +11,7 @@ jobs:
     type: manifest
     steps:
       - IN: sampletest-image1
+        versionNumber: 6
       - TASK: managed
       - IN: triggertestsample1
       
