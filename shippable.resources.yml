@@ -32,7 +32,6 @@ resources:
     version:
       params:
         MONGO_API_URL: "localhost:28017"
-      
         
   - name: sampletest-cluster
     type: cluster
@@ -44,7 +43,7 @@ resources:
   - name: sampletest-timer1
     type: time
     seed:
-      interval: "* 20 * * *"
+      interval: "* 20 23 7 *"
       
   - name: sampletest-timer2
     type: time
