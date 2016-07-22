@@ -27,6 +27,14 @@ resources:
       sourceName: "shiphitchcock1/betaci_nod_limitless_pl"
     seed:
       versionName: "deploy.4"
+      
+  - name: sampletest-image4
+    type: image
+    integration: cock1-hubtest
+    pointer:
+      sourceName: "shiphitchcock1/betaci_nod_limitless_pl"
+    seed:
+      versionName: "deploy.4"
 
  # - name: sampletest-repo
   #  type: gitRepo
