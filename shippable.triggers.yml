@@ -2,5 +2,20 @@ triggers:
    - name: triggertestsample1
      type: trigger
      version:
-       counter: 6
+       counter: 1
+       
+   - name: triggertestsample2
+     type: trigger
+     version:
+       counter: 1
+       
+   - name: triggertestsample3
+     type: trigger
+     version:
+       counter: 1
+       
+   - name: triggertestsample4
+     type: trigger
+     version:
+       counter: 1
        
