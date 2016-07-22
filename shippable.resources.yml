@@ -20,7 +20,7 @@ resources:
     seed:
       versionName: "deploy.5"
       
-  - name: sampletest-image1
+  - name: sampletest-image3
     type: image
     integration: cock1-hub
     pointer:
