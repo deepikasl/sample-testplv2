@@ -8,7 +8,7 @@ jobs:
       - IN: triggertestsample1
       
   - name: sampletest-ecsdeploy
-    type: ecsDeploy
+    type: deploy
     steps:
       - IN: sampletest-manifest
       - IN: sampletest-cluster
