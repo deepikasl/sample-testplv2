@@ -53,7 +53,7 @@ resources:
     type: cluster
     integration: deepika-ecs
     pointer:
-      sourceName : "testCL"
+      sourceName : "test-cl"
       region: "us-west-2"
       
   # - name: sampletest-timer1
