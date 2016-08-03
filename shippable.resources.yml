@@ -6,7 +6,7 @@ resources:
       
   - name: sampletest-image1
     type: image
-    integration: cock1-hub
+    integration: deepika-docker
     pointer:
       sourceName: "shiphitchcock1/betaci_nod_limitless_pl"
     seed:
@@ -14,7 +14,7 @@ resources:
       
   - name: sampletest-image2
     type: image
-    integration: cock1-hub
+    integration: deepika-docker
     pointer:
       sourceName: "shiphitchcock1/betaci_nod_limitless_pl"
     seed:
@@ -22,7 +22,7 @@ resources:
       
   - name: sampletest-image3
     type: image
-    integration: cock1-hub
+    integration: deepika-docker
     pointer:
       sourceName: "shiphitchcock1/betaci_nod_limitless_pl"
     seed:
@@ -30,7 +30,7 @@ resources:
       
   - name: sampletest-image4
     type: image
-    integration: cock1-hubtest
+    integration: deepika-docker
     pointer:
       sourceName: "shiphitchcock1/betaci_nod_limitless_pl"
     seed:
@@ -47,14 +47,13 @@ resources:
     type: params
     version:
       params:
-        MONGO_API_URL: "localhost:28017"
+        MONGO_API_URL: "localhost:50001"
         
   - name: sampletest-cluster
     type: cluster
-    integration: varshaarun-ecs
+    integration: deepika-ddc
     pointer:
       sourceName : "testCL"
-      region: "us-west-2"
       
   - name: sampletest-timer1
     type: time
