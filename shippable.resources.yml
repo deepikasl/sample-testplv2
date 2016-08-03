@@ -50,10 +50,10 @@ resources:
         MONGO_API_URL: "localhost:50001"
         
   - name: sampletest-cluster
-    type: cluster
+    type: ddcCluster
     integration: deepika-ddc
-    pointer:
-      sourceName : "testCL"
+    source:
+      name : "ddc-cluster"
       
   # - name: sampletest-timer1
   #   type: time
