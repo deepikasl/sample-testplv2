@@ -52,8 +52,9 @@ resources:
   - name: sampletest-cluster
     type: cluster
     integration: deepika-ecs
-    source:
-      name : "ddc-cluster"
+    pointer:
+      sourceName : "testCL"
+      region: "us-west-2"
       
   # - name: sampletest-timer1
   #   type: time
