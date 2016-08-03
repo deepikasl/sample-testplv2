@@ -11,7 +11,7 @@ jobs:
     type: manifest
     steps:
       - IN: sampletest-image1
-      - TASK: managed
+      #- TASK: managed
       - IN: triggertestsample1
       
   - name: sampletest-ecsdeploy
