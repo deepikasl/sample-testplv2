@@ -50,8 +50,8 @@ resources:
         MONGO_API_URL: "localhost:50001"
         
   - name: sampletest-cluster
-    type: ddcCluster
-    integration: deepika-ddc
+    type: cluster
+    integration: deepika-ecs
     source:
       name : "ddc-cluster"
       
