@@ -4,7 +4,7 @@ jobs:
     type: manifest
     steps:
       - IN: sampletest-image1
-        versionNumber: 24
+        # versionNumber: 24
       #- TASK: managed
       - IN: triggertestsample1
       
