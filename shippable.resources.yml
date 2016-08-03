@@ -2,7 +2,7 @@ resources:
       
   - name: sampletest-image1
     type: image
-    integration: deepika-docker
+    integration: "deepika-docker-local"
     pointer:
       sourceName: "shiphitchcock1/betaci_nod_limitless_pl"
     seed:
@@ -10,7 +10,7 @@ resources:
       
   - name: sampletest-cluster
     type: cluster
-    integration: deepika-ecs
+    integration: "deepika-ecs-local"
     pointer:
       sourceName: "testCL"
       region: "us-west-2"
