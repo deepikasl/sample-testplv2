@@ -16,7 +16,7 @@ jobs:
       - IN: triggertestsample1
       
   - name: sampletest-ecsdeploy
-    type: ddcDeploy
+    type: ecsDeploy
     steps:
       - IN: sampletest-manifest
       - IN: sampletest-cluster
