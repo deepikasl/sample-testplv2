@@ -2,7 +2,7 @@ resources:
   - name: sampletest-version
     type: version
     seed:
-      versionName: "1.1.1-beta"
+      versionName: "1.1.1-local"
       
   - name: sampletest-image1
     type: image
@@ -12,29 +12,29 @@ resources:
     seed:
       versionName: "deploy.4"
       
-  - name: sampletest-image2
-    type: image
-    integration: deepika-docker
-    pointer:
-      sourceName: "shiphitchcock1/betaci_nod_limitless_pl"
-    seed:
-      versionName: "deploy.5"
+  # - name: sampletest-image2
+  #   type: image
+  #   integration: deepika-docker
+  #   pointer:
+  #     sourceName: "shiphitchcock1/betaci_nod_limitless_pl"
+  #   seed:
+  #     versionName: "deploy.5"
       
-  - name: sampletest-image3
-    type: image
-    integration: deepika-docker
-    pointer:
-      sourceName: "shiphitchcock1/betaci_nod_limitless_pl"
-    seed:
-      versionName: "deploy.4"
+  # - name: sampletest-image3
+  #   type: image
+  #   integration: deepika-docker
+  #   pointer:
+  #     sourceName: "shiphitchcock1/betaci_nod_limitless_pl"
+  #   seed:
+  #     versionName: "deploy.4"
       
-  - name: sampletest-image4
-    type: image
-    integration: deepika-docker
-    pointer:
-      sourceName: "shiphitchcock1/betaci_nod_limitless_pl"
-    seed:
-      versionName: "deploy.4"
+  # - name: sampletest-image4
+  #   type: image
+  #   integration: deepika-docker
+  #   pointer:
+  #     sourceName: "shiphitchcock1/betaci_nod_limitless_pl"
+  #   seed:
+  #     versionName: "deploy.4"
 
  # - name: sampletest-repo
   #  type: gitRepo
@@ -55,12 +55,12 @@ resources:
     pointer:
       sourceName : "testCL"
       
-  - name: sampletest-timer1
-    type: time
-    seed:
-      interval: "* 20 23 7 *"
+  # - name: sampletest-timer1
+  #   type: time
+  #   seed:
+  #     interval: "* 20 23 7 *"
       
-  - name: sampletest-timer2
-    type: time
-    seed:
-      interval: "30 17 20 7 3"
+  # - name: sampletest-timer2
+  #   type: time
+  #   seed:
+  #     interval: "30 17 20 7 3"
